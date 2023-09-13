@@ -1,0 +1,17 @@
+The bash script can be used for multi-gpu training on the compute canada cluster by running the following command:
+> sbatch run.sh
+
+Before submission to the compute canada cluster (or other clusters), please do the following steps:
+1. Upload the ASVspoof2019 and ASVspoof 2021 files to compute canada under your 'scratch' folder. In my case, they are named 'LA.zip' (the 2019 version) and 'ASVspoof2021_DF_eval_*.tar.gz' (the 2021 evaluation sets)
+2. Clone the whole repository to your 'project' folder
+3. Check all paths and make sure they are correct. 
+
+The first few commented lines are specifying the hardware parameters, usually there is no need to change as they already meet the requirements for our experiments.
+There is a commented line which specifies your email address, change it to your own so that you receive notification whenever the training starts and ends. Remove it if not needed.
+
+You can access compute canada from anywhere on earth (theoretically), for more info please go to the Compute Canada website.
+
+If wish to run the training scripts on your own machine, use the command 
+> python ./exps/train.py ./exps/hparams/XXX.yaml
+
+For any other questions about running this script on the cluster, please send me an email at Yi.Zhu@inrs.ca
