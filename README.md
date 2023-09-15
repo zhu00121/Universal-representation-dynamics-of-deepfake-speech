@@ -61,8 +61,7 @@ print(output.shape)
 
 Below is a visualization of the modulation dynamics of different deepfakes (same speech content, same speaker)
 
-![1694741997462](image/README/1694741997462.png)
-<img src="image/README/1694741997462.png"  width="600" height="300">
+<img src="image/README/1694741997462.png"  width="800" height="300">
 
 ## Contact
 
