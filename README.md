@@ -55,7 +55,7 @@ MTB = modulator(
 
 input = torch.randn((1,1000,768)) # (bathc, time, feature_channel)
 
-output = modulator(input)
+output = MTB(input)
 print(output.shape)
 ```
 
