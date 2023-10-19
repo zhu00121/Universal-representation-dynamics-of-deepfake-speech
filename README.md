@@ -1,6 +1,6 @@
 # Universal-representation-dynamics-of-deepfake-speech
 
-This repo contains the implementation of the paper "Characterizing the temporal dynamics of universal speech representations for generalizable deepfake detection", by Yi Zhu, Saurabh Power, and Tiago H. Falk.
+This repo contains the implementation of the paper "Characterizing the temporal dynamics of universal speech representations for generalizable deepfake detection", by Yi Zhu, Saurabh Powar, and Tiago H. Falk.
 
 ## Requirements and installations
 
